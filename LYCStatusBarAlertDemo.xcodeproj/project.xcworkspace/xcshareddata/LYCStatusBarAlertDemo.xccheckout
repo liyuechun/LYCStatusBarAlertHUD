@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC9E0C90-C7C2-4ADE-9536-EC00EF96B105</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LYCStatusBarAlertDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F429146EEA29C2CCAEF01FED9A7179EBDB07F076</key>
+		<string>https://github.com/LiYueChun/LYCStatusBarAlertHUD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LYCStatusBarAlertDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F429146EEA29C2CCAEF01FED9A7179EBDB07F076</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LiYueChun/LYCStatusBarAlertHUD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F429146EEA29C2CCAEF01FED9A7179EBDB07F076</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F429146EEA29C2CCAEF01FED9A7179EBDB07F076</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LYCStatusBarAlertDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
