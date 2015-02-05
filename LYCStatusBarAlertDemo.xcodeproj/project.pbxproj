@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC522BEF1A834A230029795D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC522BEE1A834A230029795D /* main.m */; };
+		BC522BF21A834A230029795D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC522BF11A834A230029795D /* AppDelegate.m */; };
+		BC522BF51A834A230029795D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC522BF41A834A230029795D /* ViewController.m */; };
+		BC522BF81A834A230029795D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC522BF61A834A230029795D /* Main.storyboard */; };
+		BC522BFA1A834A230029795D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC522BF91A834A230029795D /* Images.xcassets */; };
+		BC522BFD1A834A230029795D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC522BFB1A834A230029795D /* LaunchScreen.xib */; };
+		BC522C091A834A230029795D /* LYCStatusBarAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC522C081A834A230029795D /* LYCStatusBarAlertDemoTests.m */; };
+		BC522C191A834B160029795D /* LYCStatusBarAlertHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BC522C181A834B160029795D /* LYCStatusBarAlertHUD.m */; };
+		BC522C1B1A834F960029795D /* statusbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BC522C1A1A834F960029795D /* statusbar_background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC522C031A834A230029795D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC522BE11A834A230029795D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC522BE81A834A230029795D;
+			remoteInfo = LYCStatusBarAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC522BE91A834A230029795D /* LYCStatusBarAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCStatusBarAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC522BED1A834A230029795D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC522BEE1A834A230029795D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC522BF01A834A230029795D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC522BF11A834A230029795D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC522BF31A834A230029795D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC522BF41A834A230029795D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC522BF71A834A230029795D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC522BF91A834A230029795D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC522BFC1A834A230029795D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC522C021A834A230029795D /* LYCStatusBarAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCStatusBarAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC522C071A834A230029795D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC522C081A834A230029795D /* LYCStatusBarAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCStatusBarAlertDemoTests.m; sourceTree = "<group>"; };
+		BC522C171A834B160029795D /* LYCStatusBarAlertHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCStatusBarAlertHUD.h; sourceTree = "<group>"; };
+		BC522C181A834B160029795D /* LYCStatusBarAlertHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCStatusBarAlertHUD.m; sourceTree = "<group>"; };
+		BC522C1A1A834F960029795D /* statusbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar_background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC522BE61A834A230029795D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC522BFF1A834A230029795D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC522BE01A834A230029795D = {
+			isa = PBXGroup;
+			children = (
+				BC522BEB1A834A230029795D /* LYCStatusBarAlertDemo */,
+				BC522C051A834A230029795D /* LYCStatusBarAlertDemoTests */,
+				BC522BEA1A834A230029795D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC522BEA1A834A230029795D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC522BE91A834A230029795D /* LYCStatusBarAlertDemo.app */,
+				BC522C021A834A230029795D /* LYCStatusBarAlertDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC522BEB1A834A230029795D /* LYCStatusBarAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC522C161A834B160029795D /* LYCStatusBarAlertHUD */,
+				BC522BF01A834A230029795D /* AppDelegate.h */,
+				BC522BF11A834A230029795D /* AppDelegate.m */,
+				BC522BF31A834A230029795D /* ViewController.h */,
+				BC522BF41A834A230029795D /* ViewController.m */,
+				BC522BF61A834A230029795D /* Main.storyboard */,
+				BC522BF91A834A230029795D /* Images.xcassets */,
+				BC522BFB1A834A230029795D /* LaunchScreen.xib */,
+				BC522BEC1A834A230029795D /* Supporting Files */,
+			);
+			path = LYCStatusBarAlertDemo;
+			sourceTree = "<group>";
+		};
+		BC522BEC1A834A230029795D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC522BED1A834A230029795D /* Info.plist */,
+				BC522BEE1A834A230029795D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC522C051A834A230029795D /* LYCStatusBarAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC522C081A834A230029795D /* LYCStatusBarAlertDemoTests.m */,
+				BC522C061A834A230029795D /* Supporting Files */,
+			);
+			path = LYCStatusBarAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		BC522C061A834A230029795D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC522C071A834A230029795D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC522C161A834B160029795D /* LYCStatusBarAlertHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BC522C1A1A834F960029795D /* statusbar_background.png */,
+				BC522C171A834B160029795D /* LYCStatusBarAlertHUD.h */,
+				BC522C181A834B160029795D /* LYCStatusBarAlertHUD.m */,
+			);
+			path = LYCStatusBarAlertHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC522BE81A834A230029795D /* LYCStatusBarAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC522C0C1A834A230029795D /* Build configuration list for PBXNativeTarget "LYCStatusBarAlertDemo" */;
+			buildPhases = (
+				BC522BE51A834A230029795D /* Sources */,
+				BC522BE61A834A230029795D /* Frameworks */,
+				BC522BE71A834A230029795D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYCStatusBarAlertDemo;
+			productName = LYCStatusBarAlertDemo;
+			productReference = BC522BE91A834A230029795D /* LYCStatusBarAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC522C011A834A230029795D /* LYCStatusBarAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC522C0F1A834A230029795D /* Build configuration list for PBXNativeTarget "LYCStatusBarAlertDemoTests" */;
+			buildPhases = (
+				BC522BFE1A834A230029795D /* Sources */,
+				BC522BFF1A834A230029795D /* Frameworks */,
+				BC522C001A834A230029795D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC522C041A834A230029795D /* PBXTargetDependency */,
+			);
+			name = LYCStatusBarAlertDemoTests;
+			productName = LYCStatusBarAlertDemoTests;
+			productReference = BC522C021A834A230029795D /* LYCStatusBarAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC522BE11A834A230029795D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "黎跃春";
+				TargetAttributes = {
+					BC522BE81A834A230029795D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BC522C011A834A230029795D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BC522BE81A834A230029795D;
+					};
+				};
+			};
+			buildConfigurationList = BC522BE41A834A230029795D /* Build configuration list for PBXProject "LYCStatusBarAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC522BE01A834A230029795D;
+			productRefGroup = BC522BEA1A834A230029795D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC522BE81A834A230029795D /* LYCStatusBarAlertDemo */,
+				BC522C011A834A230029795D /* LYCStatusBarAlertDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC522BE71A834A230029795D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC522BF81A834A230029795D /* Main.storyboard in Resources */,
+				BC522BFD1A834A230029795D /* LaunchScreen.xib in Resources */,
+				BC522BFA1A834A230029795D /* Images.xcassets in Resources */,
+				BC522C1B1A834F960029795D /* statusbar_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC522C001A834A230029795D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC522BE51A834A230029795D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC522BF51A834A230029795D /* ViewController.m in Sources */,
+				BC522BF21A834A230029795D /* AppDelegate.m in Sources */,
+				BC522BEF1A834A230029795D /* main.m in Sources */,
+				BC522C191A834B160029795D /* LYCStatusBarAlertHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC522BFE1A834A230029795D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC522C091A834A230029795D /* LYCStatusBarAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC522C041A834A230029795D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC522BE81A834A230029795D /* LYCStatusBarAlertDemo */;
+			targetProxy = BC522C031A834A230029795D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC522BF61A834A230029795D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC522BF71A834A230029795D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC522BFB1A834A230029795D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC522BFC1A834A230029795D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC522C0A1A834A230029795D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC522C0B1A834A230029795D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC522C0D1A834A230029795D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYCStatusBarAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC522C0E1A834A230029795D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYCStatusBarAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC522C101A834A230029795D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LYCStatusBarAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCStatusBarAlertDemo.app/LYCStatusBarAlertDemo";
+			};
+			name = Debug;
+		};
+		BC522C111A834A230029795D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LYCStatusBarAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCStatusBarAlertDemo.app/LYCStatusBarAlertDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC522BE41A834A230029795D /* Build configuration list for PBXProject "LYCStatusBarAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC522C0A1A834A230029795D /* Debug */,
+				BC522C0B1A834A230029795D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC522C0C1A834A230029795D /* Build configuration list for PBXNativeTarget "LYCStatusBarAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC522C0D1A834A230029795D /* Debug */,
+				BC522C0E1A834A230029795D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC522C0F1A834A230029795D /* Build configuration list for PBXNativeTarget "LYCStatusBarAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC522C101A834A230029795D /* Debug */,
+				BC522C111A834A230029795D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC522BE11A834A230029795D /* Project object */;
+}
